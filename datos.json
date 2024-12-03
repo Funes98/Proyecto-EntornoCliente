@@ -1,131 +1,232 @@
 {
-    "articles": [
-      {
-        "id": 1,
-        "title": "Introducción a las APIs REST",
-        "author": "Juan Pérez",
-        "content": "Las APIs REST son un estándar en el desarrollo de aplicaciones web modernas...",
-        "comments": [
-          {
-            "id": 1,
-            "author": "Ana López",
-            "text": "Muy buen artículo, gracias por compartir."
-          },
-          {
-            "id": 2,
-            "author": "Carlos Gómez",
-            "text": "Me aclaró muchas dudas sobre APIs REST. Excelente trabajo."
-          },
-          {
-            "id": 3,
-            "author": "Lucía Romero",
-            "text": "¿Podrías dar ejemplos de APIs públicas para practicar?"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "title": "Consejos para aprender JavaScript",
-        "author": "María García",
-        "content": "JavaScript es un lenguaje esencial para el desarrollo web. Aquí tienes algunos consejos para dominarlo...",
-        "comments": [
-          {
-            "id": 1,
-            "author": "Luis Fernández",
-            "text": "Muy útil. Estoy empezando con JavaScript y esto me motiva mucho."
-          },
-          {
-            "id": 2,
-            "author": "Isabel Vega",
-            "text": "Excelente, me sirvió para planificar mi estudio."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "title": "Cómo optimizar el rendimiento de tu sitio web",
-        "author": "Carlos Mendoza",
-        "content": "Un sitio web rápido y eficiente mejora la experiencia del usuario. En este artículo te mostramos cómo optimizarlo...",
-        "comments": [
-          {
-            "id": 1,
-            "author": "Fernando Martínez",
-            "text": "Muy útil, especialmente la parte sobre compresión de imágenes."
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Desarrollo web con React",
-        "author": "Sofía Torres",
-        "content": "React es una de las bibliotecas más populares para crear interfaces de usuario. Este artículo explica cómo empezar...",
-        "comments": [
-          {
-            "id": 1,
-            "author": "Raúl Domínguez",
-            "text": "Gracias por este recurso, estoy aprendiendo React y me resultó de gran ayuda."
-          },
-          {
-            "id": 2,
-            "author": "Laura Sánchez",
-            "text": "¿Planeas hacer un artículo sobre Redux?"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Seguridad en aplicaciones web",
-        "author": "Andrés Guzmán",
-        "content": "La seguridad es fundamental en el desarrollo web. Aquí encontrarás consejos clave para proteger tus aplicaciones...",
-        "comments": [
-          {
-            "id": 1,
-            "author": "Diego Fernández",
-            "text": "Muy buen artículo, la seguridad debería ser prioridad siempre."
-          },
-          {
-            "id": 2,
-            "author": "Claudia Ruiz",
-            "text": "Me gustó mucho la sección sobre encriptación de contraseñas."
-          },
-          {
-            "id": 3,
-            "author": "Mario López",
-            "text": "¿Podrías escribir sobre autenticación multifactor?"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Estrategias de SEO para 2024",
-        "author": "Paula Contreras",
-        "content": "El SEO sigue evolucionando. Estas son las estrategias más importantes para el próximo año...",
-        "comments": [
-          {
-            "id": 1,
-            "author": "Gabriel Ortega",
-            "text": "¡Gracias! Justo estoy actualizando mi sitio web y esto me viene de maravilla."
-          },
-          {
-            "id": 2,
-            "author": "Marta Gil",
-            "text": "¿Qué opinas sobre las tendencias en búsquedas por voz?"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "title": "Introducción a Node.js",
-        "author": "Eduardo Silva",
-        "content": "Node.js es un entorno de tiempo de ejecución que permite usar JavaScript en el servidor. Aprende los fundamentos aquí...",
-        "comments": [
-          {
-            "id": 1,
-            "author": "Pedro Vargas",
-            "text": "Perfecto para principiantes, gracias por compartir."
-          }
-        ]
-      }
-    ]
-  }
-  
+  "articles": [
+    {
+      "id": "1",
+      "title": "Introducción a las APIs REST",
+      "content": "Las APIs REST son un estándar en el desarrollo de aplicaciones web modernas...",
+      "autorId": 1
+    },
+    {
+      "id": "2",
+      "title": "Consejos para aprender JavaScript",
+      "content": "JavaScript es un lenguaje esencial para el desarrollo web. Aquí tienes algunos consejos para dominarlo...",
+      "autorId": 2
+    },
+    {
+      "id": "3",
+      "title": "Cómo optimizar el rendimiento de tu sitio web",
+      "content": "Un sitio web rápido y eficiente mejora la experiencia del usuario. En este artículo te mostramos cómo optimizarlo...",
+      "autorId": 3
+    },
+    {
+      "id": "4",
+      "title": "Desarrollo web con React",
+      "content": "React es una de las bibliotecas más populares para crear interfaces de usuario. Este artículo explica cómo empezar...",
+      "autorId": 4
+    },
+    {
+      "id": "5",
+      "title": "Seguridad en aplicaciones web",
+      "content": "La seguridad es fundamental en el desarrollo web. Aquí encontrarás consejos clave para proteger tus aplicaciones...",
+      "autorId": 5
+    },
+    {
+      "id": "6",
+      "title": "Estrategias de SEO para 2024",
+      "content": "El SEO sigue evolucionando. Estas son las estrategias más importantes para el próximo año...",
+      "autorId": 6
+    },
+    {
+      "id": "7",
+      "title": "Introducción a Node.js",
+      "content": "Node.js es un entorno de tiempo de ejecución que permite usar JavaScript en el servidor. Aprende los fundamentos aquí...",
+      "autorId": 7
+    },
+    {
+      "id": "8",
+      "title": "El dia de la marmota",
+      "authorId": 2,
+      "content": "ñladskñlsakdñsaldkas"
+    },
+    {
+      "id": "9",
+      "title": "Aprobado para siempre",
+      "content": "El dia que aprobe esta shit",
+      "authorId": 3
+    },
+    {
+      "id": "894a",
+      "title": "Nuevo lenguaje de programacion",
+      "content": "This is the best lenguage of programation for ever",
+      "authorId": null
+    },
+    {
+      "id": "32e9",
+      "title": "For ever young",
+      "content": "This is the end my old friend",
+      "authorId": 10
+    },
+    {
+      "id": "12",
+      "title": "Prueba autor",
+      "content": "sadsadsadsadsad",
+      "authorId": null
+    },
+    {
+      "id": "13",
+      "title": "Prueba autor 2",
+      "content": "dsfdsfdsfdsfdsf",
+      "authorId": 9
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Juan Pérez",
+      "email": "juan.perez@example.com"
+    },
+    {
+      "id": "2",
+      "name": "María García",
+      "email": "maria.garcia@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Carlos Mendoza",
+      "email": "carlos.mendoza@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Sofía Torres",
+      "email": "sofia.torres@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Andrés Guzmán",
+      "email": "andres.guzman@example.com"
+    },
+    {
+      "id": "6",
+      "name": "Paula Contreras",
+      "email": "paula.contreras@example.com"
+    },
+    {
+      "id": "7",
+      "name": "Eduardo Silva",
+      "email": "eduardo.silva@example.com"
+    },
+    {
+      "id": "[object Undefined]",
+      "name": "Jesus Funes",
+      "email": "jesusfunes97@gmail.com"
+    },
+    {
+      "id": "9",
+      "name": "admin",
+      "email": "jesusfunes69@gmail.com"
+    },
+    {
+      "id": "10",
+      "name": "kike montilla",
+      "email": "kike@gmail.com"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "comment": "Muy buen artículo, gracias por compartir.",
+      "userId": 2,
+      "articleId": 1
+    },
+    {
+      "id": "2",
+      "comment": "Me aclaró muchas dudas sobre APIs REST. Excelente trabajo.",
+      "userId": 3,
+      "articleId": 1
+    },
+    {
+      "id": "3",
+      "comment": "¿Podrías dar ejemplos de APIs públicas para practicar?",
+      "userId": 4,
+      "articleId": 1
+    },
+    {
+      "id": "4",
+      "comment": "Muy útil. Estoy empezando con JavaScript y esto me motiva mucho.",
+      "userId": 5,
+      "articleId": 2
+    },
+    {
+      "id": "5",
+      "comment": "Excelente, me sirvió para planificar mi estudio.",
+      "userId": 6,
+      "articleId": 2
+    },
+    {
+      "id": "6",
+      "comment": "Muy útil, especialmente la parte sobre compresión de imágenes.",
+      "userId": 7,
+      "articleId": 3
+    },
+    {
+      "id": "7",
+      "comment": "Gracias por este recurso, estoy aprendiendo React y me resultó de gran ayuda.",
+      "userId": 1,
+      "articleId": 4
+    },
+    {
+      "id": "8",
+      "comment": "¿Planeas hacer un artículo sobre Redux?",
+      "userId": 2,
+      "articleId": 4
+    },
+    {
+      "id": "9",
+      "comment": "Muy buen artículo, la seguridad debería ser prioridad siempre.",
+      "userId": 3,
+      "articleId": 5
+    },
+    {
+      "id": "10",
+      "comment": "Me gustó mucho la sección sobre encriptación de contraseñas.",
+      "userId": 4,
+      "articleId": 5
+    },
+    {
+      "id": "11",
+      "comment": "¿Podrías escribir sobre autenticación multifactor?",
+      "userId": 5,
+      "articleId": 5
+    },
+    {
+      "id": "12",
+      "comment": "¡Gracias! Justo estoy actualizando mi sitio web y esto me viene de maravilla.",
+      "userId": 6,
+      "articleId": 6
+    },
+    {
+      "id": "13",
+      "comment": "¿Qué opinas sobre las tendencias en búsquedas por voz?",
+      "userId": 7,
+      "articleId": 6
+    },
+    {
+      "id": "14",
+      "comment": "Perfecto para principiantes, gracias por compartir.",
+      "userId": 1,
+      "articleId": 7
+    },
+    {
+      "id": "15",
+      "comment": "efrdsdsfsdf",
+      "userId": "Jesus Funes",
+      "articleId": "1"
+    },
+    {
+      "id": "16",
+      "comment": "Un placer haber programado contigo amigo",
+      "userId": "Jesus Funes",
+      "articleId": "32e9"
+    }
+  ]
+}
